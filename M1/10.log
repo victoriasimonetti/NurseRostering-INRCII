@@ -1,0 +1,109 @@
+Argumentos: 
+./solver.release -i 10 -t 86400 -a 7 -h 86400 -w Testes/Marcos-i10 -m modelo.mod -o modelo.mod 
+Seed: 1622589650
+hidden-TXT/Sc-n035w4.txt
+hidden-TXT/H0-n035w4-2.txt
+hidden-TXT/WD-n035w4-9.txt hidden-TXT/WD-n035w4-9.txt hidden-TXT/WD-n035w4-2.txt hidden-TXT/WD-n035w4-1.txt 
+Reading model section from modelo.mod...
+285 lines were read
+Reading data section from Testes/Marcos-i10/10.dat...
+7248 lines were read
+Generating obj...
+Generating H1turnoDia...
+Generating H2coberturaMinima...
+Generating H3AsucessaoTurnos...
+Generating H3BsucessaoTurnos...
+Generating H4qualificacao...
+Generating S1coberturaOtima...
+Generating S2aux1...
+Generating S2aux2...
+Generating S2aux3...
+Generating S2aux7...
+Generating S2a...
+Generating S2S3aux4...
+Generating S2S3aux5...
+Generating S2S3aux6...
+Generating S2S3aux8...
+Generating S2c...
+Generating S2chist...
+Generating S2d...
+Generating S2dHist...
+Generating S2b...
+Generating S2bHist...
+Generating auxS5...
+Generating S6a...
+Generating S6b...
+Generating auxS7...
+Generating S7...
+Model has been successfully generated
+Writing problem data to `Testes/Marcos-i10/10.lp'...
+2991654 lines were written
+CPX0000  Tried aggregator 2 times.
+CPX0000  Aggregator has done 8648 substitutions...
+CPX0000  MIP Presolve eliminated 84918 rows and 92090 columns.
+CPX0000  MIP Presolve modified 1963 coefficients.
+CPX0000  Aggregator did 8648 substitutions.
+CPX0000  Reduced MIP has 1012516 rows, 96405 columns, and 3398121 nonzeros.
+CPX0000  Reduced MIP has 96171 binaries, 234 generals, 0 SOSs, and 0 indicators.
+CPX0000  Presolve time = 13.83 sec. (10480.06 ticks)
+CPX0000  Probing time = 0.30 sec. (66.58 ticks)
+CPX0000  Tried aggregator 1 time.
+CPX0000  MIP Presolve eliminated 15 rows and 15 columns.
+CPX0000  MIP Presolve modified 116 coefficients.
+CPX0000  Reduced MIP has 1012501 rows, 96390 columns, and 3398018 nonzeros.
+CPX0000  Reduced MIP has 96171 binaries, 219 generals, 0 SOSs, and 0 indicators.
+CPX0000  Presolve time = 8.89 sec. (5667.58 ticks)
+CPX0000  Probing time = 0.27 sec. (65.05 ticks)
+CPX0000  Clique table members: 808131.
+CPX0000  MIP emphasis: balance optimality and feasibility.
+CPX0000  MIP search method: dynamic search.
+CPX0000  Parallel mode: none, using 1 thread.
+CPX0000  Root relaxation solution time = 33645.72 sec. (7739309.29 ticks)
+CPX0000
+CPX0000          Nodes                                         Cuts/
+CPX0000     Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+CPX0000
+CPX0000        0     0      105.4092 14172                    105.4092  5624875
+CPX0000
+CPX0000  GUB cover cuts applied:  153
+CPX0000  Clique cuts applied:  84
+CPX0000  Cover cuts applied:  77
+CPX0000  Implied bound cuts applied:  1
+CPX0000  Flow cuts applied:  10
+CPX0000  Mixed integer rounding cuts applied:  240
+CPX0000  Zero-half cuts applied:  214
+CPX0000  Lift and project cuts applied:  1
+CPX0000  Gomory fractional cuts applied:  4
+CPX0000
+CPX0000  Root node processing (before b&c):
+CPX0000    Real time             = 86401.61 sec. (11511584.53 ticks)
+CPX0000  Sequential b&c:
+CPX0000    Real time             =    0.00 sec. (0.00 ticks)
+CPX0000                            ------------
+CPX0000  Total (root+branch&cut) = 86401.61 sec. (11511584.53 ticks)
+H2 understaffing: 353
+H3 shiftTypeSuccessions: 6
+S1 optimalCoverage: 660
+S2a consecutiveShift: 12255 = (6,811 )
+S2b consecutiveWorkingDays: 25380 = ( 0,846 )
+S3 consecutiveDaysOff: 150 = ( 5,0 )
+S4 preferences: 610
+S5 completeWeekend: 0
+S6 totalAssignments: 9100
+S7 totalWorkingWeekeends: 2520
+ 
+
+Cost Solution: 409675
+
+File "Solucao/n035w4-2-9-9-2-1_w0.txt", unknown skill: HN_0 for nurse HN_0 on day Monday for shift type Early
+
+     Syntax:
+     java -jar validator.jar --sce scenario --his history --weeks week_1...week_n --sols sol_1...sol_n [--penaltyonly] [--out outFile] [--verbose]
+
+          scenario           the file containing the scenario
+          history            the file containing the initial history
+          week_1...week_n    the files containing the week data
+          sol_1...sol_n      the files containing the solutions for the weeks
+          --penaltyonly      option to print only the penalty value
+          --out outfile      option: print output to outfile
+          --verbose          option: prints a detailed report of violations per nurse
