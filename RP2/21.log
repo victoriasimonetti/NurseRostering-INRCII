@@ -1,0 +1,276 @@
+Argumentos: 
+./solver.release -i 21 -t 86400 -a 7 -h 86400 -w Testes/R2-i21 -m R2_modeloCom2345.mod -o R2_modeloCom2345.mod 
+Seed: 1622927966
+hidden-TXT/Sc-n110w4.txt
+hidden-TXT/H0-n110w4-0.txt
+hidden-TXT/WD-n110w4-1.txt hidden-TXT/WD-n110w4-4.txt hidden-TXT/WD-n110w4-2.txt hidden-TXT/WD-n110w4-8.txt 
+Reading model section from R2_modeloCom2345.mod...
+367 lines were read
+Reading data section from Testes/R2-i21/21.dat...
+19773 lines were read
+Generating obj...
+Generating H1turnoDia...
+Generating H2coberturaMinima...
+Generating H3AsucessaoTurnos...
+Generating H3BsucessaoTurnos...
+Generating H4qualificacao...
+Generating S1coberturaOtima...
+Generating S2d...
+Generating S2dHist...
+Generating S2b...
+Generating S2bHist...
+Generating auxS5...
+Generating S6a...
+Generating S6b...
+Generating auxS7...
+Generating S7...
+Model has been successfully generated
+Writing problem data to `Testes/R2-i21/21.lp'...
+513524 lines were written
+CPX0000  Tried aggregator 2 times.
+CPX0000  MIP Presolve eliminated 21894 rows and 78829 columns.
+CPX0000  MIP Presolve modified 5933 coefficients.
+CPX0000  Aggregator did 12 substitutions.
+CPX0000  Reduced MIP has 23443 rows, 33977 columns, and 299722 nonzeros.
+CPX0000  Reduced MIP has 33336 binaries, 641 generals, 0 SOSs, and 0 indicators.
+CPX0000  Presolve time = 0.55 sec. (329.50 ticks)
+CPX0000  Found incumbent of value 638555.000000 after 1.28 sec. (989.32 ticks)
+[1m[30m[ZEN] [0m00:00:01 [1m[34m 638555.00[1m[32m  100.00%
+[0mCPX0000  Probing time = 0.03 sec. (11.13 ticks)
+CPX0000  Tried aggregator 1 time.
+CPX0000  Reduced MIP has 23443 rows, 33977 columns, and 299722 nonzeros.
+CPX0000  Reduced MIP has 33336 binaries, 641 generals, 0 SOSs, and 0 indicators.
+CPX0000  Presolve time = 0.15 sec. (109.62 ticks)
+CPX0000  Probing time = 0.03 sec. (10.51 ticks)
+CPX0000  Clique table members: 14930.
+CPX0000  MIP emphasis: balance optimality and feasibility.
+CPX0000  MIP search method: dynamic search.
+CPX0000  Parallel mode: none, using 1 thread.
+CPX0000  Root relaxation solution time = 2.65 sec. (1347.27 ticks)
+CPX0000
+CPX0000          Nodes                                         Cuts/
+CPX0000     Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+CPX0000
+CPX0000  *     0+    0                       638555.0000        0.0000     7684  100.00%
+CPX0000        0     0      760.0000   856   638555.0000      760.0000     7684   99.88%
+CPX0000  *     0+    0                         9600.0000      760.0000     7684   92.08%
+[1m[30m[ZEN] [0m00:00:04 [1m[34m   9600.00[1m[32m   92.08%
+[0mCPX0000        0     0      855.3810  1460     9600.0000    Cuts: 1210    12466   91.09%
+CPX0000        0     0      918.3333  1582     9600.0000     Cuts: 660    16096   90.43%
+CPX0000        0     0      928.1111  1564     9600.0000     Cuts: 504    19325   90.33%
+CPX0000  *     0+    0                         2010.0000      928.1111    19325   53.83%
+CPX0000  *     0+    0                         1550.0000      928.1111    19325   40.12%
+[1m[30m[ZEN] [0m00:00:22 [1m[34m   1550.00[1m[32m   40.12%
+[0mCPX0000        0     0      934.4444  1621     1550.0000     Cuts: 366    23020   39.71%
+CPX0000        0     0      936.1111  1585     1550.0000     Cuts: 301    26360   39.61%
+CPX0000        0     0      936.1111  1506     1550.0000     Cuts: 318    30566   39.61%
+CPX0000        0     0      938.6111  1426     1550.0000     Cuts: 317    35948   39.44%
+CPX0000        0     0      949.0278  1460     1550.0000     Cuts: 294    39249   38.77%
+CPX0000        0     0      954.0278  1393     1550.0000     Cuts: 276    43865   38.45%
+CPX0000        0     0      956.9444  1271     1550.0000     Cuts: 254    47577   38.26%
+CPX0000        0     0      959.4444  1384     1550.0000     Cuts: 203    52090   38.10%
+CPX0000        0     0      964.4444  1510     1550.0000     Cuts: 163    56200   37.78%
+CPX0000        0     0      969.4444  1337     1550.0000     Cuts: 266    59462   37.46%
+CPX0000        0     0      974.4444  1326     1550.0000     Cuts: 263    62318   37.13%
+CPX0000        0     0      977.1667  1089     1550.0000     Cuts: 210    67181   36.96%
+CPX0000        0     0      977.5833  1212     1550.0000     Cuts: 184    70641   36.93%
+CPX0000        0     0      977.5833  1243     1550.0000     Cuts: 159    73413   36.93%
+CPX0000        0     0      977.5833   614     1550.0000      Cuts: 22    73625   36.93%
+CPX0000        0     0      977.5833   766     1550.0000     Cuts: 134    74159   36.93%
+CPX0000  *     0+    0                         1050.0000      977.5833    74159    6.90%
+CPX0000  *     0+    0                         1030.0000      977.5833    74159    5.09%
+CPX0000  *     0+    0                         1020.0000      977.5833    74159    4.16%
+[1m[30m[ZEN] [0m00:01:32 [1m[34m   1020.00[1m[32m    4.16%
+[0mCPX0000        0     2      977.5833   480     1020.0000      977.5833    74159    4.16%
+CPX0000  Elapsed time = 92.65 sec. (56501.40 ticks, tree = 0.00 MB
+CPX0000        1     3      983.8333   555     1020.0000      977.5833    75625    4.16%
+CPX0000        4     6      983.8333   572     1020.0000      977.5833    76341    4.16%
+CPX0000       10    12      986.3333   504     1020.0000      977.5833    77343    4.16%
+CPX0000       15    17      978.0000   602     1020.0000      977.5833    78236    4.16%
+CPX0000       21    23      987.1667   575     1020.0000      977.5833    79161    4.16%
+CPX0000       29    31      983.0000   502     1020.0000      977.5833    79886    4.16%
+CPX0000       38    40      983.8333   455     1020.0000      977.5833    80521    4.16%
+CPX0000       46    48      996.3333   324     1020.0000      977.5833    81401    4.16%
+CPX0000       55    57     1007.3333   372     1020.0000      977.5833    82288    4.16%
+CPX0000       84    78      981.3333   609     1020.0000      978.0000    84876    4.12%
+CPX0000  Elapsed time = 98.37 sec. (60199.44 ticks, tree = 20.01 MB
+CPX0000       97    91      986.3333   539     1020.0000      978.0000    88326    4.12%
+CPX0000      125   116      978.0000   703     1020.0000      978.0000    91037    4.12%
+CPX0000      158   149     1006.8750   420     1020.0000      978.0000    92871    4.12%
+CPX0000      200   191     1006.8750   305     1020.0000      978.0000    94291    4.12%
+CPX0000      255   246     1009.3750   401     1020.0000      978.0000    96810    4.12%
+CPX0000      284   271      995.2083   584     1020.0000      978.0000    98552    4.12%
+CPX0000      324   311     1010.0000   296     1020.0000      978.0000   101133    4.12%
+CPX0000      360   347     1010.0000    65     1020.0000      978.0000   102873    4.12%
+CPX0000      401   380      978.0000   626     1020.0000      978.0000   106772    4.12%
+CPX0000      434   413     1001.8750   385     1020.0000      978.0000   109617    4.12%
+CPX0000  Elapsed time = 114.02 sec. (70276.86 ticks, tree = 122.81 MB
+CPX0000  *   494+  313                         1010.0000     1000.0000   129907    0.99%
+CPX0000  *   494     0      integral     0     1010.0000                 142814    0.00%
+CPX0000
+CPX0000  GUB cover cuts applied:  526
+CPX0000  Clique cuts applied:  804
+CPX0000  Cover cuts applied:  49
+CPX0000  Mixed integer rounding cuts applied:  125
+CPX0000  Zero-half cuts applied:  481
+CPX0000  Lift and project cuts applied:  13
+CPX0000  Gomory fractional cuts applied:  54
+CPX0000
+CPX0000  Root node processing (before b&c):
+CPX0000    Real time             =   92.59 sec. (56443.43 ticks)
+CPX0000  Sequential b&c:
+CPX0000    Real time             =   51.84 sec. (36607.35 ticks)
+CPX0000                            ------------
+CPX0000  Total (root+branch&cut) =  144.42 sec. (93050.79 ticks)
+[1m[30m[ZEN] [0m00:02:24 [1m[34m   1010.00[1m[32m    0.00%
+[0mH2 understaffing: 0
+H3 shiftTypeSuccessions: 0
+S1 optimalCoverage: 0
+S2a consecutiveShift: 19530 = (1302,0 )
+S2b consecutiveWorkingDays: 25200 = ( 840,0 )
+S3 consecutiveDaysOff: 17190 = ( 573,0 )
+S4 preferences: 110
+S5 completeWeekend: 0
+S6 totalAssignments: 900
+S7 totalWorkingWeekeends: 0
+ 
+
+Cost Solution: 62930
+
+       |M|T|W|T|F|S|S| |M|T|W|T|F|S|S| |M|T|W|T|F|S|S| |M|T|W|T|F|S|S|
+------------------------------------------------------------------------
+HN_0   |D|E|L|-|E|D|D| |-|-|E|L|-|-|-| |D|-|N|-|-|E|D| |E|-|E|L|-|-|-|
+HN_1   |-|N|-|L|-|-|-| |-|N|-|E|-|-|-| |-|-|-|E|-|N|-| |-|-|D|-|-|-|-|
+HN_2   |-|L|-|-|-|N|-| |-|-|-|-|D|-|-| |-|-|-|-|L|-|-| |-|D|-|-|-|-|-|
+HN_3   |D|E|D|D|D|-|-| |L|L|L|N|N|-|-| |L|L|-|D|E|E|E| |L|-|D|D|D|D|E|
+HN_4   |-|D|-|-|-|-|-| |L|-|-|E|-|-|-| |D|-|D|D|-|-|-| |L|L|-|-|E|D|L|
+HN_5   |-|N|-|N|-|N|N| |N|-|E|N|-|-|-| |-|-|N|N|-|-|-| |-|L|N|-|D|-|-|
+HN_6   |L|L|L|L|L|-|-| |-|E|D|L|-|-|-| |N|-|D|D|E|-|-| |N|N|-|N|-|-|-|
+HN_7   |D|E|L|N|-|N|N| |-|-|E|N|-|L|L| |-|-|E|L|N|-|-| |D|D|L|L|L|-|-|
+HN_8   |-|E|N|-|L|-|-| |-|N|-|-|N|-|-| |N|-|L|N|N|N|N| |N|-|-|N|-|E|D|
+HN_9   |D|D|-|-|-|E|E| |-|E|N|-|E|-|-| |-|-|L|-|-|-|-| |-|L|L|-|N|-|-|
+HN_10  |-|N|-|L|-|-|-| |N|N|N|-|D|N|N| |N|N|N|-|D|-|-| |-|N|N|-|D|-|-|
+HN_11  |L|-|-|-|D|-|-| |-|E|-|E|E|-|-| |-|N|-|-|-|-|D| |L|N|-|-|E|-|-|
+HN_12  |-|-|D|-|E|-|-| |E|E|L|-|N|-|-| |-|-|-|-|D|L|L| |-|-|-|E|N|-|-|
+HN_13  |-|L|N|-|D|D|D| |-|L|L|-|D|E|D| |-|-|D|-|L|-|-| |-|D|-|N|N|-|-|
+HN_14  |E|N|-|L|-|-|-| |-|D|-|D|-|N|N| |-|L|N|-|-|-|-| |N|-|-|-|N|-|-|
+HN_15  |-|E|L|L|-|-|-| |-|D|N|-|-|-|-| |N|-|E|E|-|L|L| |-|D|D|E|-|E|L|
+HN_16  |D|E|E|D|N|-|-| |E|E|D|E|L|-|-| |E|D|D|E|-|D|E| |E|D|-|E|E|D|L|
+HN_17  |D|D|-|N|N|-|-| |-|-|-|D|-|D|E| |-|E|L|N|-|-|-| |-|-|L|-|-|-|-|
+HN_18  |N|N|N|-|E|L|N| |N|-|E|D|D|-|-| |D|D|D|D|N|-|-| |D|E|E|N|-|L|N|
+HN_19  |N|-|D|-|-|E|E| |D|-|D|-|-|L|L| |L|-|L|-|L|-|-| |E|E|E|N|-|-|-|
+NU_20  |-|L|-|-|-|N|N| |-|-|E|-|-|-|-| |L|-|E|L|N|-|-| |-|E|D|E|-|-|-|
+NU_21  |E|E|E|L|N|-|-| |E|D|E|D|N|-|-| |E|E|D|L|-|D|E| |N|N|-|E|D|E|D|
+NU_22  |E|-|E|D|E|L|L| |-|D|E|L|L|-|-| |E|E|E|D|E|-|-| |D|L|L|N|-|L|L|
+NU_23  |L|L|L|-|E|-|-| |E|-|-|L|-|-|-| |-|-|-|N|N|-|-| |L|-|N|-|E|-|-|
+NU_24  |-|D|-|N|-|-|-| |-|L|L|N|-|-|-| |-|-|L|L|N|-|-| |-|E|L|-|N|-|-|
+NU_25  |-|-|-|D|N|-|-| |N|-|N|-|D|D|E| |-|E|N|-|E|-|-| |L|N|N|-|D|-|-|
+NU_26  |-|L|-|-|-|-|-| |D|-|L|-|-|-|-| |-|N|-|-|-|-|D| |L|-|-|-|-|-|-|
+NU_27  |-|L|-|-|-|-|-| |-|-|N|-|-|-|-| |-|D|-|-|-|-|D| |-|-|-|D|N|-|-|
+NU_28  |-|N|N|-|D|-|-| |D|L|-|-|L|-|-| |-|-|L|-|-|N|N| |-|-|-|D|E|-|-|
+NU_29  |-|-|N|-|E|E|D| |E|N|-|-|-|E|D| |D|N|N|-|D|-|-| |E|L|N|-|-|-|-|
+NU_30  |-|N|-|N|N|-|-| |L|-|L|-|D|L|L| |-|N|-|-|E|-|-| |D|E|-|-|-|-|-|
+NU_31  |L|-|-|E|-|-|-| |E|-|L|-|D|-|-| |D|L|L|-|E|-|-| |-|L|L|L|L|-|-|
+NU_32  |N|-|D|D|D|D|L| |-|D|D|L|N|-|-| |E|D|D|D|N|-|-| |D|E|L|L|-|E|E|
+NU_33  |D|D|L|L|N|-|-| |E|D|D|D|E|-|-| |E|D|E|L|-|E|E| |N|-|E|D|E|N|N|
+NU_34  |-|E|-|-|-|-|-| |-|-|L|N|-|-|-| |-|-|-|-|D|-|L| |-|-|-|-|E|-|-|
+NU_35  |-|-|E|D|D|N|N| |-|N|N|-|-|E|D| |-|N|-|-|D|-|-| |L|-|L|L|N|-|-|
+NU_36  |-|-|-|E|L|-|-| |D|-|-|D|-|D|D| |L|L|N|-|-|-|-| |E|-|-|-|D|-|-|
+NU_37  |-|-|-|D|-|E|D| |-|L|-|-|L|-|-| |D|L|-|E|D|-|-| |-|-|-|E|L|-|-|
+NU_38  |L|N|-|E|N|-|-| |E|D|E|D|E|-|-| |E|E|-|E|E|L|L| |N|-|D|L|L|N|N|
+NU_39  |D|D|-|-|L|L|L| |L|-|L|-|L|-|-| |-|E|E|L|L|-|-| |-|-|D|D|L|-|-|
+CT_40  |E|-|-|-|-|-|-| |-|N|-|-|-|-|-| |-|L|-|N|-|N|-| |-|-|D|-|-|-|-|
+CT_41  |-|-|-|N|-|-|-| |-|-|-|-|D|-|-| |-|-|-|L|-|-|-| |-|D|-|-|-|N|-|
+CT_42  |N|-|E|E|L|L|N| |-|L|L|L|L|-|-| |N|-|D|D|D|L|L| |-|D|E|D|E|-|-|
+CT_43  |-|N|-|-|-|-|-| |L|-|-|-|E|-|-| |-|-|-|-|L|-|D| |-|-|-|-|-|-|-|
+CT_44  |L|-|-|E|E|-|-| |D|L|-|-|-|D|N| |-|D|-|N|-|-|-| |D|-|D|-|-|-|-|
+CT_45  |E|D|D|-|N|-|-| |L|-|D|N|-|-|-| |N|-|-|D|E|-|-| |E|-|E|N|-|E|D|
+CT_46  |E|-|D|-|-|-|-| |L|-|L|-|-|E|E| |E|D|-|L|-|-|-| |E|L|-|-|-|-|-|
+CT_47  |D|D|E|E|E|-|-| |E|E|L|L|L|-|-| |N|N|-|E|E|E|E| |N|-|E|D|D|E|L|
+CT_48  |N|N|-|L|-|-|-| |-|-|L|-|-|-|-| |-|N|N|N|-|-|-| |E|N|-|L|N|-|-|
+CT_49  |E|E|E|D|L|-|-| |E|E|D|E|D|-|-| |L|L|L|-|L|N|N| |N|-|D|D|E|E|D|
+CT_50  |N|-|D|N|-|E|E| |-|-|D|N|-|D|D| |-|N|N|N|-|-|-| |-|D|E|-|N|-|-|
+CT_51  |-|-|D|-|-|D|E| |N|-|-|-|-|-|-| |-|L|-|D|N|-|-| |L|-|N|N|N|-|-|
+CT_52  |E|L|N|-|-|-|-| |N|-|N|-|E|N|N| |-|E|N|-|D|-|-| |L|-|E|-|E|D|L|
+CT_53  |E|D|E|L|L|-|-| |N|-|N|-|E|-|-| |-|L|-|-|L|L|L| |L|-|L|L|L|-|-|
+CT_54  |D|D|D|D|D|-|-| |D|D|D|D|N|-|-| |D|D|D|L|-|D|D| |D|N|N|-|D|E|E|
+CT_55  |L|-|L|-|-|-|-| |-|-|D|-|-|-|-| |-|-|D|-|-|-|-| |-|-|-|N|N|-|-|
+CT_56  |-|L|L|-|L|-|-| |-|-|-|D|L|-|-| |-|-|-|D|-|-|-| |-|-|-|-|L|-|-|
+CT_57  |L|N|N|-|N|-|-| |E|N|N|N|-|-|-| |-|-|-|E|-|-|-| |-|D|-|D|N|-|-|
+CT_58  |-|-|-|D|L|-|-| |E|N|-|-|-|-|-| |-|-|E|-|N|-|-| |-|-|-|N|-|-|-|
+CT_59  |L|-|E|D|D|D|E| |N|-|N|-|D|E|E| |-|-|E|-|L|-|-| |-|D|-|L|-|-|-|
+CT_60  |-|N|-|D|L|L|L| |-|E|-|L|L|-|-| |D|-|-|L|L|-|-| |-|D|-|N|-|-|-|
+CT_61  |-|-|-|D|-|-|-| |-|-|-|-|D|-|-| |D|-|-|-|D|-|-| |-|-|-|N|-|-|-|
+CT_62  |-|L|L|N|N|-|-| |E|E|E|D|D|-|-| |E|N|N|-|E|D|D| |E|E|-|E|L|N|N|
+CT_63  |-|L|N|-|D|N|N| |N|N|-|E|-|L|L| |-|-|-|-|D|-|-| |E|D|-|D|N|-|-|
+CT_64  |L|-|N|-|D|-|-| |N|-|L|-|D|-|-| |L|-|D|N|-|-|-| |-|L|N|-|-|-|-|
+CT_65  |E|E|E|E|N|-|-| |D|D|E|E|N|-|-| |L|L|L|N|-|N|N| |N|N|N|-|D|N|N|
+CT_66  |N|-|D|L|-|E|D| |-|L|N|N|-|-|-| |-|D|E|L|L|-|-| |L|L|-|N|-|-|-|
+CT_67  |-|-|N|-|-|-|-| |-|-|N|-|-|-|-| |-|-|-|D|D|-|-| |-|E|-|L|-|L|-|
+CT_68  |-|-|N|-|-|-|-| |-|L|-|L|N|N|N| |N|-|L|-|-|-|-| |-|E|L|L|-|-|-|
+CT_69  |-|-|L|N|-|-|-| |L|L|N|-|-|-|-| |L|-|L|L|-|-|-| |E|E|L|-|-|-|-|
+CT_70  |N|-|-|-|D|-|-| |N|N|-|D|E|N|N| |-|-|E|E|E|-|-| |N|N|-|D|L|-|-|
+CT_71  |-|D|-|D|-|-|-| |-|-|-|N|-|-|-| |-|-|-|-|D|-|-| |-|L|-|-|-|D|-|
+CT_72  |-|-|-|N|-|-|-| |N|-|-|E|-|-|-| |N|-|D|E|-|-|-| |-|-|L|-|-|-|-|
+CT_73  |-|L|-|-|-|-|-| |L|-|-|L|-|-|-| |-|-|-|-|N|-|D| |-|-|-|E|-|-|-|
+CT_74  |N|N|-|-|-|-|-| |-|D|-|-|-|-|E| |E|E|-|-|-|-|-| |D|-|-|-|-|-|-|
+CT_75  |D|-|-|-|E|-|-| |-|D|-|-|E|L|L| |N|N|-|D|-|E|L| |L|N|-|E|E|-|-|
+CT_76  |L|-|D|L|L|-|-| |D|E|D|D|N|-|-| |D|E|N|N|-|D|E| |E|-|D|E|D|L|N|
+CT_77  |D|D|E|N|N|-|-| |D|E|D|E|L|-|-| |D|E|N|N|-|E|N| |N|-|E|E|D|D|E|
+CT_78  |D|-|D|E|E|D|L| |-|E|E|N|N|-|-| |D|E|E|E|N|-|-| |D|-|D|L|L|L|L|
+CT_79  |-|-|-|-|D|-|D| |L|-|-|D|-|-|-| |N|-|-|-|L|-|-| |-|-|N|-|-|-|-|
+TR_80  |D|L|-|D|E|-|-| |-|D|-|E|-|E|E| |N|-|-|D|L|-|-| |E|E|-|E|E|-|-|
+TR_81  |D|-|D|-|-|L|L| |-|N|N|N|-|-|-| |-|L|-|-|-|-|-| |-|-|E|D|D|-|-|
+TR_82  |-|E|-|-|-|-|-| |E|D|-|-|-|-|-| |-|D|D|-|L|L|N| |-|L|L|-|E|-|-|
+TR_83  |E|L|N|N|N|-|-| |-|E|D|E|N|-|-| |-|-|D|-|D|-|-| |-|L|-|N|-|E|E|
+TR_84  |N|-|-|E|E|-|-| |L|N|-|E|D|N|N| |-|E|E|-|N|-|-| |N|-|-|E|N|-|-|
+TR_85  |-|-|L|-|-|N|-| |-|L|-|-|-|-|-| |N|-|-|-|-|-|-| |-|N|-|-|-|-|-|
+TR_86  |E|D|N|N|-|-|-| |-|-|E|-|-|-|-| |L|N|-|E|-|-|-| |N|-|D|N|-|-|-|
+TR_87  |L|N|-|L|-|-|-| |-|D|-|E|-|-|-| |L|-|D|D|E|N|N| |-|D|N|-|-|D|E|
+TR_88  |L|L|-|-|-|N|N| |N|N|-|-|E|E|E| |-|E|E|E|-|-|-| |-|D|N|N|-|-|-|
+TR_89  |-|E|E|D|D|-|-| |D|D|N|N|N|-|-| |E|L|-|E|D|N|N| |N|-|D|L|N|N|N|
+TR_90  |N|-|N|-|E|-|-| |-|L|-|-|-|-|-| |-|-|E|D|N|-|-| |D|N|-|E|L|-|-|
+TR_91  |E|E|D|N|N|-|-| |E|E|E|L|N|-|-| |D|D|D|L|-|D|L| |N|-|L|L|L|N|N|
+TR_92  |-|-|-|-|D|-|-| |-|-|L|-|-|-|D| |-|-|D|-|-|-|-| |-|-|-|L|-|-|-|
+TR_93  |N|N|N|-|-|-|-| |-|N|-|-|L|-|-| |L|N|N|N|-|-|-| |-|-|L|L|-|-|-|
+TR_94  |L|N|-|-|-|E|D| |D|-|E|N|-|-|-| |-|-|-|N|-|-|-| |N|-|E|E|-|-|-|
+TR_95  |-|-|-|-|D|-|-| |-|-|N|-|-|N|-| |-|-|-|N|-|-|-| |-|-|-|E|-|-|-|
+TR_96  |E|N|N|-|E|-|-| |E|-|L|-|D|D|E| |N|-|E|-|E|-|-| |-|-|E|L|L|-|-|
+TR_97  |D|-|E|L|L|-|-| |L|L|L|L|N|-|-| |L|N|-|E|E|E|D| |D|-|E|D|L|L|L|
+TR_98  |-|-|E|-|-|-|-| |D|L|N|N|-|N|N| |-|D|E|D|D|-|-| |E|D|E|-|E|-|-|
+TR_99  |L|-|E|D|-|E|E| |N|-|D|-|E|D|D| |-|D|-|E|D|-|-| |-|E|-|D|-|-|-|
+TR_100 |D|-|D|E|E|D|D| |-|D|E|E|D|-|-| |D|L|L|L|N|-|-| |E|E|L|L|-|E|D|
+TR_101 |D|D|L|L|L|-|-| |E|E|D|N|N|-|-| |L|L|L|L|-|E|E| |L|L|N|-|E|D|E|
+TR_102 |-|-|-|-|-|N|-| |N|-|-|-|-|-|-| |-|L|-|-|N|-|-| |-|-|-|-|N|-|-|
+TR_103 |-|-|E|E|-|-|-| |-|-|E|-|-|D|L| |N|-|L|-|N|-|-| |D|N|N|-|-|-|-|
+TR_104 |N|N|-|E|D|E|L| |L|-|D|L|L|L|L| |-|L|L|N|N|-|-| |E|E|D|D|D|-|-|
+TR_105 |N|-|D|N|N|-|-| |L|L|-|D|-|-|-| |D|N|N|-|-|D|E| |L|-|N|N|-|-|-|
+TR_106 |E|E|D|E|L|-|-| |D|E|D|D|E|-|-| |E|E|N|N|-|L|L| |L|L|-|E|D|D|L|
+TR_107 |-|D|-|-|D|D|E| |N|N|-|L|L|-|-| |N|-|L|-|L|-|-| |D|D|-|D|N|-|-|
+TR_108 |-|-|-|-|L|-|E| |-|-|-|-|-|-|-| |E|-|-|-|-|-|-| |-|L|L|-|-|-|-|
+TR_109 |L|-|E|-|N|-|-| |L|-|-|D|D|-|-| |D|E|N|-|E|E|D| |E|N|-|-|D|-|-|
+
+
+Hard constraint violations
+--------------------------
+
+Minimal coverage constraints: 0
+Required skill constraints: 0
+Illegal shift type succession constraints: 0
+Single assignment per day: 0
+
+
+Cost per constraint type
+------------------------
+
+Total assignment constraints: 900
+Consecutive constraints: 44730
+Non working days constraints: 17190
+Preferences: 110
+Max working weekend: 0
+Complete weekends: 0
+Optimal coverage constraints: 0
+
+------------------------
+
+Total cost: 62930
