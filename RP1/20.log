@@ -1,0 +1,214 @@
+Argumentos: 
+./solver.release -i 20 -t 86400 -a 7 -h 86400 -w Testes/R1-i20 -m R1_modeloCom2345.mod -o R1_modeloCom2345.mod 
+Seed: 1622927738
+hidden-TXT/Sc-n070w4.txt
+hidden-TXT/H0-n070w4-2.txt
+hidden-TXT/WD-n070w4-9.txt hidden-TXT/WD-n070w4-5.txt hidden-TXT/WD-n070w4-6.txt hidden-TXT/WD-n070w4-5.txt 
+Reading model section from R1_modeloCom2345.mod...
+367 lines were read
+Reading data section from Testes/R1-i20/20.dat...
+13093 lines were read
+Generating obj...
+Generating H1turnoDia...
+Generating H2coberturaMinima...
+Generating H3AsucessaoTurnos...
+Generating H3BsucessaoTurnos...
+Generating H4qualificacao...
+Generating S1coberturaOtima...
+Generating auxS5...
+Generating S6a...
+Generating S6b...
+Generating auxS7...
+Generating S7...
+Model has been successfully generated
+Writing problem data to `Testes/R1-i20/20.lp'...
+244077 lines were written
+CPX0000  Tried aggregator 2 times.
+CPX0000  MIP Presolve eliminated 14115 rows and 58111 columns.
+CPX0000  MIP Presolve modified 3777 coefficients.
+CPX0000  Aggregator did 1 substitutions.
+CPX0000  Reduced MIP has 6823 rows, 14787 columns, and 85701 nonzeros.
+CPX0000  Reduced MIP has 14361 binaries, 426 generals, 0 SOSs, and 0 indicators.
+CPX0000  Presolve time = 0.16 sec. (109.14 ticks)
+CPX0000  Found incumbent of value 261270.000000 after 0.34 sec. (223.98 ticks)
+[1m[30m[ZEN] [0m00:00:00 [1m[34m 261270.00[1m[32m  100.00%
+[0mCPX0000  Probing time = 0.01 sec. (5.51 ticks)
+CPX0000  Tried aggregator 1 time.
+CPX0000  Reduced MIP has 6823 rows, 14787 columns, and 85701 nonzeros.
+CPX0000  Reduced MIP has 14361 binaries, 426 generals, 0 SOSs, and 0 indicators.
+CPX0000  Presolve time = 0.04 sec. (33.93 ticks)
+CPX0000  Probing time = 0.01 sec. (5.13 ticks)
+CPX0000  Clique table members: 9927.
+CPX0000  MIP emphasis: balance optimality and feasibility.
+CPX0000  MIP search method: dynamic search.
+CPX0000  Parallel mode: none, using 1 thread.
+CPX0000  Root relaxation solution time = 0.85 sec. (612.40 ticks)
+CPX0000
+CPX0000          Nodes                                         Cuts/
+CPX0000     Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+CPX0000
+CPX0000  *     0+    0                       261270.0000        0.0000     5737  100.00%
+CPX0000        0     0        0.0000   820   261270.0000        0.0000     5737  100.00%
+CPX0000        0     0        0.0000   462   261270.0000     Cuts: 563     7370  100.00%
+CPX0000        0     0        0.0000   438   261270.0000     Cuts: 366     8482  100.00%
+CPX0000  *     0+    0                         1100.0000        0.0000     8482  100.00%
+[1m[30m[ZEN] [0m00:00:03 [1m[34m   1100.00[1m[32m  100.00%
+[0mCPX0000        0     0        0.0000   326     1100.0000     Cuts: 278     9265  100.00%
+CPX0000  *     0+    0                          690.0000        0.0000     9265  100.00%
+CPX0000  *     0+    0                          680.0000        0.0000     9265  100.00%
+CPX0000  *     0+    0                          430.0000        0.0000     9265  100.00%
+CPX0000  *     0+    0                          410.0000        0.0000     9265  100.00%
+CPX0000  *     0+    0                          220.0000        0.0000     9265  100.00%
+CPX0000  *     0+    0                          210.0000        0.0000     9265  100.00%
+[1m[30m[ZEN] [0m00:00:03 [1m[34m    210.00[1m[32m  100.00%
+[0mCPX0000        0     0        0.0000   448      210.0000     Cuts: 219    10222  100.00%
+CPX0000        0     0        0.0000    18      210.0000      Cuts: 18    10514  100.00%
+CPX0000        0     0        0.0000   147      210.0000      Cuts: 48    11475  100.00%
+CPX0000  *     0+    0                           30.0000        0.0000    11475  100.00%
+[1m[30m[ZEN] [0m00:00:10 [1m[34m     30.00[1m[32m  100.00%
+[0mCPX0000        0     2        0.0000    12       30.0000        0.0000    11475  100.00%
+CPX0000  Elapsed time = 10.92 sec. (7266.92 ticks, tree = 0.00 MB
+CPX0000       33    27        6.6667    81       30.0000        0.0000    13369  100.00%
+CPX0000       38    28        0.0000   250       30.0000        0.0000    14710  100.00%
+CPX0000       60    44        0.0000   290       30.0000        0.0000    17486  100.00%
+CPX0000       76    56        0.0000   248       30.0000        0.0000    19404  100.00%
+CPX0000       82    54        0.0000   238       30.0000        0.0000    21728  100.00%
+CPX0000       91    52        0.0000   174       30.0000        0.0000    23698  100.00%
+CPX0000      103    57        0.0000   279       30.0000        0.0000    25104  100.00%
+CPX0000      120    68        0.0000   145       30.0000        0.0000    26558  100.00%
+CPX0000      139    75        0.0000   250       30.0000        0.0000    28618  100.00%
+CPX0000      182    98        0.0000   254       30.0000        0.0000    34323  100.00%
+CPX0000  Elapsed time = 16.72 sec. (11879.71 ticks, tree = 3.93 MB
+CPX0000      236   141        0.0000   146       30.0000        0.0000    38353  100.00%
+CPX0000      295   197        0.0000   145       30.0000        0.0000    43364  100.00%
+CPX0000      334   236        0.0000    43       30.0000        0.0000    48821  100.00%
+CPX0000      382   280        0.0000   193       30.0000        0.0000    54170  100.00%
+CPX0000      440   326        0.0000   182       30.0000        0.0000    58748  100.00%
+CPX0000      479   359        0.0000   119       30.0000        0.0000    63101  100.00%
+CPX0000      521   401        0.0000   189       30.0000        0.0000    68017  100.00%
+CPX0000  *   522     0      integral     0       30.0000                  77670    0.00%
+CPX0000
+CPX0000  GUB cover cuts applied:  340
+CPX0000  Clique cuts applied:  591
+CPX0000  Cover cuts applied:  95
+CPX0000  Mixed integer rounding cuts applied:  95
+CPX0000  Zero-half cuts applied:  246
+CPX0000  Gomory fractional cuts applied:  36
+CPX0000
+CPX0000  Root node processing (before b&c):
+CPX0000    Real time             =   10.87 sec. (7234.48 ticks)
+CPX0000  Sequential b&c:
+CPX0000    Real time             =   20.64 sec. (16096.45 ticks)
+CPX0000                            ------------
+CPX0000  Total (root+branch&cut) =   31.52 sec. (23330.93 ticks)
+H2 understaffing: 0
+H3 shiftTypeSuccessions: 0
+S1 optimalCoverage: 0
+S2a consecutiveShift: 13350 = (882,8 )
+S2b consecutiveWorkingDays: 23250 = ( 614,161 )
+S3 consecutiveDaysOff: 15300 = ( 505,5 )
+S4 preferences: 0
+S5 completeWeekend: 0
+S6 totalAssignments: 0
+S7 totalWorkingWeekeends: 30
+ 
+
+Cost Solution: 51930
+
+      |M|T|W|T|F|S|S| |M|T|W|T|F|S|S| |M|T|W|T|F|S|S| |M|T|W|T|F|S|S|
+-----------------------------------------------------------------------
+HN_0  |-|-|E|-|E|N|-| |E|D|L|-|-|-|-| |L|L|L|-|D|-|-| |-|E|-|-|-|-|-|
+HN_1  |D|E|N|-|-|-|-| |L|L|N|-|E|-|-| |L|-|-|L|L|L|N| |-|L|N|-|E|-|-|
+HN_2  |-|-|D|L|N|-|-| |-|D|N|-|-|E|E| |-|D|D|E|L|-|-| |-|-|E|-|E|D|L|
+HN_3  |-|-|D|E|-|-|-| |-|-|L|N|-|L|L| |N|-|E|L|-|-|-| |L|-|N|-|-|-|-|
+HN_4  |L|-|E|D|-|L|L| |-|L|L|-|L|N|N| |-|D|D|-|D|-|-| |-|L|-|-|D|-|-|
+HN_5  |E|-|L|-|L|-|E| |-|N|-|-|E|-|-| |-|-|-|E|N|-|-| |E|D|-|-|D|-|-|
+HN_6  |L|L|N|-|-|-|-| |N|-|-|E|-|-|-| |-|L|L|N|-|E|E| |N|-|L|N|-|N|N|
+HN_7  |D|D|-|N|-|-|-| |-|-|E|-|D|D|E| |D|N|N|-|N|-|-| |E|-|N|-|-|E|E|
+NU_8  |D|E|-|-|D|D|E| |L|N|N|-|-|-|-| |-|E|N|-|E|N|N| |-|D|-|-|E|-|-|
+NU_9  |L|L|N|-|-|-|-| |-|E|-|-|-|-|-| |-|-|D|D|D|E|L| |L|N|-|D|E|D|D|
+NU_10 |L|-|E|E|-|E|D| |-|N|-|E|-|L|L| |N|-|D|-|N|-|-| |-|N|-|E|N|-|-|
+NU_11 |D|D|D|E|E|L|L| |-|D|D|E|E|-|-| |E|-|D|D|E|-|-| |D|E|D|E|L|L|L|
+NU_12 |L|L|L|N|N|-|-| |L|-|-|L|L|N|N| |N|N|N|-|-|-|-| |-|-|-|D|D|-|-|
+NU_13 |-|E|D|-|D|-|-| |-|-|D|E|D|-|-| |E|-|-|-|L|-|-| |-|-|E|D|-|-|D|
+NU_14 |-|L|-|E|E|-|-| |E|E|-|L|L|-|-| |E|D|E|N|-|-|-| |D|D|E|-|D|-|-|
+NU_15 |N|-|L|L|N|-|-| |-|L|-|-|L|L|L| |-|L|-|E|-|D|L| |L|N|-|D|-|-|-|
+NU_16 |-|L|-|-|-|E|E| |E|E|D|N|-|N|N| |-|-|L|-|L|-|-| |-|D|E|N|N|-|-|
+NU_17 |-|E|-|-|-|-|-| |L|N|-|D|D|-|-| |-|-|D|L|N|-|-| |-|L|-|D|-|-|D|
+NU_18 |-|-|L|-|N|-|-| |L|-|D|N|-|L|L| |-|L|L|-|L|-|-| |N|-|E|L|-|L|L|
+NU_19 |-|L|L|-|L|-|-| |-|D|-|-|-|E|D| |E|E|L|L|L|L|L| |-|N|N|-|-|-|-|
+NU_20 |N|N|-|D|E|-|-| |D|N|-|E|E|D|D| |E|D|E|D|N|-|-| |E|D|E|E|D|E|E|
+NU_21 |N|-|N|-|N|-|-| |N|-|-|E|N|-|-| |D|-|-|D|E|-|-| |-|-|L|N|-|-|-|
+NU_22 |D|E|E|E|E|D|D| |D|D|E|D|D|E|D| |L|L|-|-|N|-|-| |L|L|L|L|L|-|-|
+NU_23 |D|D|D|L|L|N|N| |-|-|D|E|D|-|-| |-|D|-|-|E|-|-| |-|D|E|-|N|-|-|
+NU_24 |-|-|-|E|E|-|-| |-|D|-|-|E|-|-| |-|E|D|D|D|-|N| |-|-|-|L|N|-|-|
+NU_25 |D|-|L|L|N|-|-| |D|-|E|D|D|D|D| |D|E|D|E|L|-|-| |E|E|D|D|E|N|N|
+NU_26 |E|D|E|E|D|D|D| |E|E|N|-|D|-|-| |E|D|D|D|D|D|D| |E|L|L|-|L|-|-|
+NU_27 |L|N|-|L|L|-|-| |E|D|D|L|N|-|-| |L|N|-|D|D|D|E| |E|E|D|E|D|L|L|
+NU_28 |N|-|N|-|-|-|-| |L|L|N|-|-|E|E| |-|L|L|-|E|D|D| |N|-|-|E|L|-|-|
+NU_29 |N|-|E|D|L|-|-| |-|-|E|L|N|-|-| |N|-|D|-|D|-|-| |-|D|-|E|E|D|E|
+NU_30 |-|N|-|D|-|D|D| |-|L|N|-|N|-|-| |-|D|N|N|-|-|-| |D|N|-|N|-|E|E|
+NU_31 |-|D|E|D|L|-|-| |N|N|N|N|N|-|-| |D|E|L|L|-|E|E| |D|D|D|E|D|E|D|
+NU_32 |L|-|-|E|-|-|E| |-|L|-|L|-|-|-| |E|L|N|-|E|-|-| |L|-|N|-|-|-|-|
+NU_33 |-|E|D|D|E|-|-| |D|D|L|L|L|-|-| |N|-|E|E|E|E|D| |D|D|D|L|L|N|N|
+NU_34 |-|E|N|-|-|-|-| |D|-|E|E|-|N|N| |-|-|L|-|L|-|-| |-|-|E|D|-|-|-|
+NU_35 |E|N|-|D|L|-|-| |E|-|-|-|L|-|-| |D|L|N|-|N|N|N| |N|-|L|L|-|-|-|
+NU_36 |-|L|-|N|-|-|-| |N|-|E|E|D|-|L| |-|-|L|N|-|-|-| |-|-|-|E|N|-|-|
+NU_37 |N|N|-|D|-|N|N| |N|-|E|D|L|-|-| |N|N|-|-|-|-|-| |D|-|D|L|L|-|-|
+NU_38 |-|-|L|N|-|-|-| |-|-|L|N|N|-|E| |N|-|-|L|-|-|-| |D|-|-|D|D|-|-|
+NU_39 |L|N|-|-|D|-|-| |E|-|E|-|-|-|-| |L|N|-|E|-|-|-| |D|E|N|N|N|N|N|
+CT_40 |E|N|-|D|E|-|-| |D|L|L|L|N|-|-| |D|D|-|N|-|-|-| |L|-|N|-|L|-|-|
+CT_41 |E|N|-|D|-|N|-| |-|-|-|E|N|-|-| |N|-|-|-|-|-|-| |D|D|N|-|N|-|-|
+CT_42 |E|N|N|N|N|-|-| |-|E|E|E|L|L|L| |-|D|E|D|E|E|D| |-|E|E|E|L|-|-|
+CT_43 |E|D|-|E|E|-|-| |D|-|-|-|L|-|-| |-|N|-|E|E|-|-| |L|-|-|-|D|-|-|
+CT_44 |E|E|E|D|D|-|-| |E|E|D|L|N|-|-| |L|-|L|L|L|L|N| |N|N|N|-|D|D|D|
+CT_45 |E|L|L|L|N|N|N| |N|N|-|D|L|-|-| |D|E|D|E|E|D|E| |E|E|-|N|N|-|-|
+CT_46 |N|N|N|N|N|-|-| |E|E|-|E|D|E|E| |D|D|E|E|N|-|-| |E|N|-|E|D|L|L|
+CT_47 |-|E|D|N|-|L|L| |-|D|L|N|-|-|-| |-|-|N|-|D|E|N| |-|L|L|-|E|-|-|
+CT_48 |-|D|D|L|L|-|-| |D|E|-|L|-|D|D| |N|N|N|N|-|-|-| |-|-|L|L|-|-|-|
+CT_49 |D|D|D|E|E|-|-| |D|E|D|D|D|D|D| |E|D|E|D|E|D|L| |-|D|D|-|L|-|-|
+CT_50 |N|-|-|-|D|-|-| |-|-|N|-|-|-|-| |-|E|E|L|N|-|-| |N|N|-|-|D|-|E|
+CT_51 |-|-|L|-|N|-|-| |-|N|-|-|E|-|-| |-|D|L|L|L|-|-| |D|-|N|-|N|-|-|
+CT_52 |D|D|N|-|-|-|-| |D|D|-|D|D|-|-| |L|N|-|D|L|-|-| |-|L|-|E|-|E|E|
+CT_53 |L|N|N|-|D|D|D| |L|L|L|L|N|-|-| |E|L|N|N|-|E|D| |L|L|L|N|N|-|-|
+CT_54 |D|L|N|N|N|-|-| |N|N|N|-|E|N|N| |-|E|N|N|N|-|-| |E|E|D|E|E|E|D|
+CT_55 |D|E|E|L|L|L|L| |L|L|L|N|N|-|-| |L|-|L|L|L|L|L| |L|N|N|N|-|-|-|
+CT_56 |D|L|L|-|L|-|-| |L|-|E|D|D|E|E| |D|E|D|D|D|-|-| |L|L|L|L|L|N|N|
+CT_57 |L|-|L|N|-|-|-| |-|D|L|-|E|-|-| |L|-|-|D|D|-|-| |-|D|L|L|L|N|N|
+CT_58 |E|D|E|E|-|-|-| |-|D|N|N|-|-|-| |-|E|N|N|N|-|-| |-|E|-|L|-|L|L|
+CT_59 |N|-|L|L|L|-|-| |L|-|N|-|L|N|N| |-|-|D|N|N|-|-| |N|-|E|-|N|-|-|
+TR_60 |E|E|E|D|D|D|E| |E|E|E|E|E|-|-| |-|L|-|N|N|-|-| |E|E|E|E|E|D|E|
+TR_61 |-|L|N|-|N|-|-| |-|-|-|D|D|-|-| |E|-|-|-|D|-|-| |-|-|-|-|D|N|-|
+TR_62 |N|N|-|D|E|-|-| |D|E|L|N|-|E|E| |D|-|D|N|N|-|-| |E|E|D|D|E|L|L|
+TR_63 |-|N|-|-|L|N|-| |-|-|-|D|N|-|-| |E|L|-|L|-|-|-| |D|-|-|L|N|-|-|
+TR_64 |-|E|D|L|-|E|L| |L|-|-|L|N|-|-| |-|E|D|-|L|-|-| |L|-|-|D|-|E|E|
+TR_65 |-|D|E|E|D|D|E| |E|D|D|-|L|-|-| |N|N|-|E|L|-|-| |L|L|L|-|D|L|N|
+TR_66 |-|N|-|L|N|-|-| |N|-|-|L|-|N|-| |-|N|-|L|-|-|-| |-|D|-|L|L|-|-|
+TR_67 |-|D|L|-|-|-|-| |-|-|L|-|D|L|N| |-|D|-|-|D|-|L| |-|D|-|-|-|-|-|
+TR_68 |L|-|D|-|E|-|-| |E|D|-|-|E|D|E| |-|-|E|-|E|L|N| |N|-|L|N|-|-|-|
+TR_69 |D|L|-|E|N|-|-| |L|L|N|N|-|L|L| |-|D|E|D|E|D|D| |E|-|N|N|N|-|-|
+
+
+Hard constraint violations
+--------------------------
+
+Minimal coverage constraints: 0
+Required skill constraints: 0
+Illegal shift type succession constraints: 0
+Single assignment per day: 0
+
+
+Cost per constraint type
+------------------------
+
+Total assignment constraints: 0
+Consecutive constraints: 36600
+Non working days constraints: 15300
+Preferences: 0
+Max working weekend: 30
+Complete weekends: 0
+Optimal coverage constraints: 0
+
+------------------------
+
+Total cost: 51930
